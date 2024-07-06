@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+*.log
+*.pyc
+db/*
+chroma_db/*
+.env
