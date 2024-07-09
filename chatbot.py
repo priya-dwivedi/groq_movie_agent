@@ -1,6 +1,7 @@
 import streamlit as st
 from agent import Chatbot
-from langchain.memory import ChatMessageHistory
+from langchain_community.chat_message_histories import ChatMessageHistory
+
 st.title("Movie Information Agent")
 
 # Initialize chat history
